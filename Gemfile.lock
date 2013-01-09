@@ -10,7 +10,8 @@ GEM
     gli (1.6.0)
     json (1.7.6)
     nokogiri (1.5.6)
-    parade (0.8.0)
+    parade (0.8.2)
+      blankslate (= 2.1.2.4)
       css_parser
       gli (~> 1.6.0)
       json
@@ -43,4 +44,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  parade
+  parade (= 0.8.2)
