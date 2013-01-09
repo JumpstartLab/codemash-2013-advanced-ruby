@@ -1,0 +1,32 @@
+
+template "default", "slide.erb"
+
+section "Introduction" do
+  slides "introduction.md"
+end
+
+section "Iteration" do
+  template "default", "iteration-slide.erb"
+  slides "outline.md"
+end
+
+
+section "Iteration 0" do
+  template "default", "iteration-zero.erb"
+  slides "iteration-zero.md"
+end
+
+section "Iteration 1" do
+  template "default", "iteration-one.erb"
+  slides "iteration-one.md"
+end
+
+section "Iteration 2" do
+  template "default", "iteration-two.erb"
+  slides "iteration-two.md"
+end
+
+section "Iteration 3" do
+  template "default", "iteration-three.erb"
+  slides "iteration-three.md"
+end

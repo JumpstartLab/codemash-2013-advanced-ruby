@@ -1,0 +1,16 @@
+<div id='<%= id %>'
+  style='background-color: #f2cb65;'
+  class='slide <%= slide_classes.join(' ') %>'
+  data-transition='<%= transition %>'
+  data-sections="<%= hierarchy.reverse.join(',') %>"
+  data-sequence="<%= sequence %>">
+
+  <div class='content <%= content_classes.join(' ') %>'>
+    <%= content_as_html %>
+  </div>
+
+  <div class="main-navigation">
+    <div class="logo"> </div>
+    <%= title %>
+  </div>
+</div>
